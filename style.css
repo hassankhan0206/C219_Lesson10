@@ -1,0 +1,194 @@
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Poppins', sans-serif; 
+} 
+ 
+section { 
+    text-align: center; 
+    padding: 40px; 
+} 
+ 
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+} 
+ 
+h1 { 
+    margin: 0; 
+} 
+ 
+nav { 
+    margin-left: auto;  
+} 
+ 
+nav a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    padding-left: 20px; 
+} 
+ 
+main { 
+    padding: 2rem; 
+} 
+ 
+section { 
+    margin-bottom: 2rem; 
+} 
+ 
+.cases-summary { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 1rem; 
+} 
+ 
+.cases-summary p { 
+    flex: 1; 
+    text-align: center; 
+} 
+ 
+.daily-cases-chart { 
+    height: 200px; 
+} 
+ 
+.cases-update { 
+    font-style: italic; 
+    color: #888; 
+} 
+ 
+.section { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.flex-container { 
+    display: flex; 
+    flex-direction: row; 
+} 
+ 
+.left-column { 
+    flex: 1; 
+    margin-left: 5rem; 
+} 
+ 
+.right-column { 
+    flex: 1; 
+    margin-right: 10rem; 
+} 
+ 
+.grid-container { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+    text-align: center; 
+} 
+ 
+span { 
+    color: #333; 
+} 
+ 
+h6{ 
+    color: #10bd24;  
+}
+
+.blackHuman, .greyHuman {
+    height: 100px;
+    padding: 5px;
+}
+
+.table-container {
+    width: 600px;
+}
+
+#map {
+    height: 400px;
+}
+
+.circle-button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+/* left: lower to go left 
+    top: lower to go higher*/
+
+#Bedok {
+    left: 550px;
+    top: 400px;
+}
+
+#BukitBatok {
+    left: 200px;
+    top: 350px;
+}
+
+#BukitMerah {
+    left: 350px;
+    top: 500px;
+}
+
+#ChoaChuKang {
+    left: 240px;
+    top: 300px;
+}
+
+#Clementi {
+    left: 240px;
+    top: 400px;
+}
+
+#Geylang {
+    left: 500px;
+    top: 390px;
+}
+
+#Hougang{
+    left: 460px;
+    top: 330px;
+}
+
+#Jurong {
+    left: 180px;
+    top: 400px;
+}
+
+#MarineParade {
+    left: 470px;
+    top: 450px;
+}
+
+#Outram {
+    left: 400px;
+    top: 470px;
+}
+
+#PasirRis {
+    left: 600px;
+    top: 340px;
+}
+
+#Pioneer {
+    left: 140px;
+    top: 420px;
+}
+
+
